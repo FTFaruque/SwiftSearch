@@ -1,0 +1,20 @@
+# Compiled output
+bin/
+*.class
+
+# macOS
+.DS_Store
+
+# Stray Eclipse files (the real ones are .project/.classpath in the root)
+src/.classpath
+src/.project
+/project
+
+# Third-party SwiftBot API (not ours to redistribute)
+lib/SwiftBotAPI-5.1.0.jar
+
+# Built program (bundles the SwiftBot API); rebuild with build.xml
+SwiftSearchRefined.jar
+
+# Third-party SSH library used by build.xml to copy the jar to the Pi
+lib/jsch-0.1.55.jar

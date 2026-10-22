@@ -4,6 +4,8 @@ A Java program for the **SwiftBot**, a Raspberry Pi robot. The robot wanders
 around, uses its ultrasound sensor to find objects, and reacts to them according
 to the mode you choose. You choose the mode by showing it a QR code.
 
+<u>**Note:**</u> This program forms part of the Year-1 Group Project of Brunel University London's Computer Science course.
+
 ## Modes
 
 | Mode | What the robot does |
@@ -21,8 +23,7 @@ Photos are saved on the robot as `/home/pi/Documents/Image_<n>.jpg`.
 - Java 17
 - Two libraries that are **not included in this repository**. Put both in a
   `lib/` folder at the top of the project:
-  - `SwiftBotAPI-5.1.0.jar`: the SwiftBot API. Get it from whoever supplied
-    your SwiftBot.
+  - `SwiftBotAPI-5.1.0.jar`: Brunel University's proprietary SwiftBot API.
   - `jsch-0.1.55.jar`: only needed to copy the program to the robot with Ant.
     Download it from
     [Maven Central](https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar).
